@@ -1,0 +1,137 @@
+
+
+
+
+
+/** Background de la page et sa font mise en place **/
+
+body {
+    background-image: url("../image/pagehome.gif");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/** Barre de navigation **/
+
+
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+
+  }
+  nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: "din";
+      src: url("../css/dinbold.ttf") 
+      format("truetype");
+    text-transform: uppercase;
+  }
+  nav li {
+    background-color: #0B315E ;
+    padding: 1rem;
+    border-radius: 3rem ;
+    width: 10rem;
+    align-content: center;
+    text-align: center;
+    font-size: 1rem;
+    
+}
+
+/** Page d'accueil **/
+#welcom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+
+}
+h1 {
+    font-family: "brightside";
+      src: url("../css/brightside.ttf") 
+      format("truetype");
+      font-size: 7rem;
+      
+      
+      text-align: center;
+      text-justify: inter-word;
+     
+}
+
+
+/** photo de page d'accueil **/
+.photo1 {
+    width: 464px;
+    height: 592px;
+    
+
+
+
+}
+ /** coleur de texte **/
+.blueText {
+    color:#0B315E;
+}
+.orangeText {
+    color: #FF9D00;
+}
+
+/** Présentation **/
+
+
+.photo2 {
+    width: 464px;
+    height: 568px;
+    float: right;
+    margin-top: -50rem;
+    margin-right: 20rem;
+    
+}
+h2 {
+    font-family: "brightside";
+    src: url("../css/brightside.ttf") 
+    format("truetype");
+    font-size: 5rem;
+    margin-left: 21rem;
+    margin-top: 9rem;
+
+}
+
+.cadre {
+    width: 886px;
+    height: 726px;
+    margin-top: -9rem;
+    margin-left: 2rem;
+    
+} 
+
+/** Compétences **/
+
+#competences img, #presentation img {
+    width: 100%;
+}
+
+h3 {
+    font-family: "brightside";
+    src: url("../css/brightside.ttf")
+    format("truetype");
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+h4 {
+    font-family: "brightside";
+    src: url("../css/brightside.ttf")
+    format("truetype");
+    font-size: 3rem;
+    text-align: center;
+
+}
